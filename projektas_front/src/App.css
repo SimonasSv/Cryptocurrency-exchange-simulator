@@ -1,0 +1,400 @@
+#root{
+  position: relative;
+}
+
+#email{
+  font-size: 35px !important;
+}
+
+#password{
+  font-size: 35px !important;
+}
+
+#demo-simple-select{
+  height: 50px !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#stake{
+  width: 6em !important;
+  height: 4em !important;
+  font-size: 16px;
+  background-color: #282c34;
+  color: white;
+  border-width: 3px !important;
+  border-radius: 2em !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body{
+  padding-right: 0px !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  position: relative;
+}
+
+#error {
+  font-size: 15px;
+  color: red;
+}
+
+#stakingError {
+  color: red;
+}
+
+.MuiMenuItem-root{
+  color: white !important;
+}
+
+.MuiMenuItem-root:hover{
+  background-color: dodgerblue !important;
+}
+
+.tableHeader{
+  font-size: 40px !important;
+}
+.tableElement{
+  font-size: 30px !important;
+}
+.MuiTable-root{
+  width: 40em !important;
+  text-decoration: white !important;
+}
+.MuiTableCell-root{
+  color: white !important;
+  font-size: 0.8em !important;
+}
+.MuiPaper-root{
+  width: 40em !important;
+  background-color: #282c34 !important;
+  text-decoration: white !important;
+  min-width: 9em !important;
+  min-height: 15em !important;
+}
+.MuiPopover-paper
+{
+  margin-top: 3em !important;
+  width: 6em !important;
+  height: 18em !important;
+  background-color: #282c34 !important;
+  text-decoration: white !important;
+}
+.MuiBox-root{
+  width: 1px !important;
+}
+.Balance{
+  position: absolute !important;
+  top: 0%;
+  text-align: right;
+  right:0%;
+}
+.MuiInputBase-input{
+
+  width: 20px !important;
+}
+.MuiInput-input
+{
+  right: 0px !important;
+}
+.MuiButton-root{
+  border-color: black !important;
+  color: white !important;
+  font-size: 30px;
+}
+.Market-choice{
+  position: absolute !important;
+  top: 80px;
+  left: 0px;
+}
+
+.history{
+  position: absolute !important;
+  bottom: 10px;
+  right: 10px;
+}
+.App-link {
+  color: #61dafb;
+}
+.MuiInputBase-input{
+  color:white !important;
+  text-align: center;
+  font-size: 24px !important;
+  position: absolute;
+  margin: auto !important;
+  right: 0 !important;
+  left: 0 !important;
+  margin-bottom: auto !important;
+  bottom: 0 !important;
+  width: 8em !important;
+
+}
+#email{
+  font-size: 35px !important;
+}
+#password{
+  font-size: 35px !important;
+}
+.MuiButton-label{
+  color: white;
+  font-size: 30px;
+}
+.MuiButtonBase-root{
+  margin-top: 0em !important;
+  width: 18em;
+  height: 7em;
+  border-width: 6px !important;
+  border-radius: 2em !important;
+}
+.MuiInputBase-root{
+  width: 20em;
+  height: 5em;
+}
+.MuiSelect-nativeInput{
+  bottom: 0% !important;
+}
+.MuiFormLabel-root{
+  color: white !important;
+}
+.MuiMenu-list{
+  width: 1px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.MuiInputBase-root{
+  border-width: 6px !important;
+  border-radius: 2em !important;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.toprightcorner{
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  text-align: right;
+  top: 0%;
+}
+
+.sticky-top {
+  position:sticky;
+}
+
+.margin-top-buying-options {
+  margin-top: 3%;
+}
+
+.buying-options-margin-bottom {
+  margin-bottom: 1.5%;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.current-page {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.bgSnow {
+  background-color: #fffafa;
+}
+
+h5.buying-options {
+  margin-top: 2%;
+  margin-right: -5%;
+  margin-left: 30%;
+}
+
+.textBlack {
+  color: black;
+}
+
+div.buying-options {
+  margin-left: 20%;
+  margin-right: -15%;
+}
+
+.bottom {
+  margin-top: 2%;
+}
+
+Button.buying-options {
+  margin-right: 1%;
+  width: 160px;
+  height: 20%;
+}
+
+.Search-Button {
+  margin-right: 45%;
+  width: 450px;
+}
+
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #282c34;
+  padding: 20px 10px;
+  }
+  #head{
+    padding: 10px;
+    box-shadow: 0px 3px #888888;
+  }
+  /* Style the header links */
+  .header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  }
+  .header p {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    }
+.MuiOutlinedInput-input{
+  bottom: 0 !important;
+  right: 0% !important;
+  width: 8em !important;
+
+}
+.ChoosePortfolio{
+  height: 5em !important;
+  bottom: 0!important;
+}
+.MuiOutlinedInput-input{
+  padding: 0 !important;
+}
+.MuiInputBase-input{
+  margin-bottom: 0 !important;
+  height: 70px !important;
+}
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+  font-size: 25px;
+  font-weight: bold; 
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+  background-color: #ddd;
+  color: rgb(0, 0, 0);
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+  background-color: dodgerblue;
+  color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+  float: right;
+  }
+  .ChoosePortfolio:hover{
+      color: black !important;
+     text-decoration: none !important;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+  .header a {
+  float: none;
+  display: block;
+  text-align: left;
+    }
+  .header-right {
+  float: none;
+    }
+  }
+
+  .cryptocurrency-logo {
+    border-radius: 100%;
+    max-width: 30%;
+    height: auto;
+  }
+  #select-buy-form {
+    margin-bottom: 2%;
+    margin-left: 58%;
+    text-align: center;
+  }
+
+  .custom-table-error {
+    color: red;
+  }
+.Settings-button{
+  color:white !important;
+  height: 1.5em !important;
+}
+
+#basic-button{
+  color:white !important;
+  width: 5.5em !important;
+  height: 3.5em !important;
+}
+
+#basic-button:hover{
+  background-color: dodgerblue;
+}
+
+.MuiMenuItem-root{
+  width: 7em !important;
+}
+.MuiPopover-paper{
+  width: 0px !important;
+}
+.Settings-menu-item{
+  width: 7em !important;
+}
+
+.PortfolioTextField
+{
+  margin: auto !important;
+}
+.PortfolioButton
+{
+  margin: auto !important;
+}
+#basicmenu2{
+  height: 70px !important;
+}
